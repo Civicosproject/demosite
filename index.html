@@ -3,67 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pre-Divorce Information</title>
+    <title>Divorce Support Platform</title>
     <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
             color: #333;
         }
         header {
-            background-color: #2c3e50;
-            color: #fff;
+            background-color: #007bff;
+            color: white;
             padding: 20px;
             text-align: center;
         }
         nav ul {
-            list-style: none;
+            list-style-type: none;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            background: #0056b3;
         }
         nav ul li {
-            display: inline;
             margin: 0 15px;
         }
         nav ul li a {
-            color: #fff;
+            color: white;
             text-decoration: none;
-            font-size: 18px;
+            font-weight: bold;
         }
-        .content {
-            max-width: 800px;
-            margin: 20px auto;
+        .intro {
+            text-align: center;
+            padding: 40px;
+            background: white;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .main-options {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .option {
+            background: white;
             padding: 20px;
-            background: #fff;
-            border-radius: 8px;
+            border-radius: 10px;
+            width: 30%;
+            text-align: center;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .btn {
             display: inline-block;
             margin-top: 10px;
             padding: 10px 15px;
-            background-color: #2980b9;
-            color: #fff;
+            background: #007bff;
+            color: white;
             text-decoration: none;
             border-radius: 5px;
         }
         .btn:hover {
-            background-color: #1c6ea4;
+            background: #0056b3;
         }
         footer {
             text-align: center;
             padding: 20px;
-            background: #2c3e50;
-            color: #fff;
+            background: #007bff;
+            color: white;
             margin-top: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Pre-Divorce Information</h1>
+        <h1>Welcome to Your Divorce Support Hub</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -71,35 +86,37 @@
                 <li><a href="active-divorce.html">Active Divorce Support</a></li>
                 <li><a href="post-divorce.html">Post-Divorce Support</a></li>
                 <li><a href="professionals.html">For Professionals</a></li>
-                <li><a href="next-steps.html">Decision & Next Steps</a></li>
+                <li><a href="decision.html">Decision & Next Steps</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     
-    <section class="content">
-        <h2>Understanding Your Situation</h2>
-        <p>Considering divorce is a complex emotional and financial decision. This section offers resources to help you gain clarity.</p>
-        
-        <h3>Divorce Readiness Assessment</h3>
-        <p>Assess your emotional and financial readiness for divorce.</p>
-        <a href="#readiness-assessment" class="btn">Start the Assessment</a>
-        
-        <h3>Emotional Check-In</h3>
-        <p>Evaluate your feelings and receive support recommendations.</p>
-        <a href="#emotional-support" class="btn">Check Your Emotional State</a>
-        
-        <h3>Legal & Financial Guide</h3>
-        <p>Learn about the legal steps, financial implications, and key considerations.</p>
-        <a href="#legal-guide" class="btn">Explore Legal & Financial Information</a>
-        
-        <h3>Support & Alternatives</h3>
-        <p>Find relationship counseling, mediation, and professional advice.</p>
-        <a href="#alternatives" class="btn">Discover Your Options</a>
+    <section class="intro">
+        <h2>Guiding You Through Every Step of Your Divorce Journey</h2>
+        <p>Whether you’re contemplating divorce, in the middle of the process, or navigating post-divorce life, we’re here to provide clear, reliable, and empathetic support.</p>
+    </section>
+    
+    <section class="main-options">
+        <div class="option">
+            <h3>Considering Divorce?</h3>
+            <p>Assess your readiness, explore emotional well-being resources, and understand your legal and financial options.</p>
+            <a href="pre-divorce.html" class="btn">Start Here</a>
+        </div>
+        <div class="option">
+            <h3>In the Divorce Process?</h3>
+            <p>Step-by-step guidance on legal matters, financial decisions, and emotional coping strategies.</p>
+            <a href="active-divorce.html" class="btn">Learn More</a>
+        </div>
+        <div class="option">
+            <h3>Post-Divorce Transition</h3>
+            <p>Get support for co-parenting, financial stability, and emotional well-being after divorce.</p>
+            <a href="post-divorce.html" class="btn">Get Support</a>
+        </div>
     </section>
     
     <footer>
-        <p>&copy; 2025 Divorce Support Platform. All rights reserved.</p>
+        <p>&copy; 2025 Divorce Support Hub. All rights reserved.</p>
     </footer>
 </body>
 </html>
