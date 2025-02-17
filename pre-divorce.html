@@ -1,20 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Your Main Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divorce Support Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .intro {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #ffffff;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .user-options {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .option {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .option h3 {
+            color: #2c3e50;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #2980b9;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #1c6ea4;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2c3e50;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="https://your-github-username.github.io/your-repository-name" target="_blank">Pre-Divorce Support</a></li>
-      <li><a href="/about">About Us</a></li>
-      <li><a href="/contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <h1>Welcome to Your Main Site</h1>
-  <p>Here you can find information about our services.</p>
-
+    <header>
+        <h1>Welcome to Your Divorce Support Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pre-divorce.html">Pre-Divorce Support</a></li>
+                <li><a href="active-divorce.html">Active Divorce Support</a></li>
+                <li><a href="post-divorce.html">Post-Divorce Support</a></li>
+                <li><a href="professionals.html">For Professionals</a></li>
+                <li><a href="next-steps.html">Decision & Next Steps</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="intro">
+        <h2>Find Guidance at Every Stage of Divorce</h2>
+        <p>Whether you're considering divorce, currently going through it, or adjusting to post-divorce life, we offer legal, financial, and emotional support.</p>
+    </section>
+    
+    <section class="user-options">
+        <div class="option">
+            <h3>Pre-Divorce</h3>
+            <p>Not sure if divorce is the right choice? Get legal, financial, and emotional clarity.</p>
+            <a href="pre-divorce.html" class="btn">Explore</a>
+        </div>
+        <div class="option">
+            <h3>Active Divorce</h3>
+            <p>Already in the process? Access step-by-step guidance and professional support.</p>
+            <a href="active-divorce.html" class="btn">Explore</a>
+        </div>
+        <div class="option">
+            <h3>Post-Divorce</h3>
+            <p>Adjusting to a new life? Find co-parenting, financial, and emotional resources.</p>
+            <a href="post-divorce.html" class="btn">Explore</a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Divorce Support Platform. All rights reserved.</p>
+    </footer>
 </body>
 </html>
